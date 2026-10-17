@@ -23,7 +23,7 @@
         "security": "none",
 
         "wsSettings": {
-          "path": "/@Moddingjust",
+          "path": "/@Moddingjusth",
           "heartbeatPeriod": 20
         }
       }
