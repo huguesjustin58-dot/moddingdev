@@ -1,0 +1,38 @@
+{
+  "log": {
+    "loglevel": "warning"
+  },
+
+  "inbounds": [
+    {
+      "listen": "0.0.0.0",
+      "port": "env:PORT",
+      "protocol": "vless",
+
+      "settings": {
+        "clients": [
+          {
+            "id": "0f3b2d6a-8c9e-5f4b-9a2d-3c1e7b8f6a2b"
+          }
+        ],
+        "decryption": "none"
+      },
+
+      "streamSettings": {
+        "network": "ws",
+        "security": "none",
+
+        "wsSettings": {
+          "path": "/@Moddingjust",
+          "heartbeatPeriod": 20
+        }
+      }
+    }
+  ],
+
+  "outbounds": [
+    {
+      "protocol": "freedom"
+    }
+  ]
+}
